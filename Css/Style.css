@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ------------ Page title ------------ */
+.productAvaible h1{ 
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+/* ------------ Products grid ------------ */
+.productGrid{
+    display: grid;
+    gap: 1rem;
+    margin-left: 18rem;    
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+}
+
+.itemFlex img{
+    width: 75%;
+    height: auto;
+}
+
+.descProduct{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
