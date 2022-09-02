@@ -4,6 +4,12 @@
 
 }
 
+h6 {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
 }
@@ -37,14 +43,26 @@ img {
   margin-right: auto;
   margin-top: 6rem;
   margin-bottom: auto;
-  column-gap: 5rem;
+  column-gap: 2.5rem;
+  row-gap: 2rem;
   column-width: 4rem;
   padding-left: 5rem;
   padding-right: 5rem;
+  justify-content: center;
 }
 
-.shadow{
-  background-color: red;
+.cartaproducto {
+  border: 1px solid rgb(218, 218, 218);
+  padding: 1rem;
+}
+
+.cartaproducto:hover {
+  box-shadow:
+    0.1px 1.6px 2.7px rgba(0, 0, 0, 0.025),
+    0.2px 4px 6.9px rgba(0, 0, 0, 0.035),
+    0.4px 8.2px 14.2px rgba(0, 0, 0, 0.045),
+    0.7px 16.8px 29.2px rgba(0, 0, 0, 0.055),
+    2px 46px 80px rgba(0, 0, 0, 0.08);
 }
 
 .tuhna{
